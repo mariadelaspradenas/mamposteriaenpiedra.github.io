@@ -20,61 +20,7 @@ p {
 
 /* HAMBURGER ICON */
 
-.menu-wrapper {
-    position: absolute;
-    top: 0;
-    right: -40px;
-    bottom: 0;
-    margin: auto;
-    width: 100px;
-    height: 60px;
-    cursor: pointer;
-  }
-  
-  .hamburger-menu, .hamburger-menu::after, .hamburger-menu::before {
-    width: 40px;
-    height: 5px;
-}
-  
-  .hamburger-menu {
-    position: relative;
-    transform: translateY(25px);
-    background: rgb(255, 196, 0);
-    transition: all 0ms 300ms;
-  }
-  .hamburger-menu.animate {
-    background: rgba(255, 255, 255, 0);
-  }
-  
-  .hamburger-menu:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 10px;
-    background:rgb(255, 196, 0);
-    transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-  
-  .hamburger-menu:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 10px;
-    background: rgb(255, 196, 0);
-    transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-  
-  .hamburger-menu.animate:after {
-    top: -80px;
-    transform: rotate(45deg);
-    transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-  
-  .hamburger-menu.animate:before {
-    bottom: 80px;
-    transform: rotate(-45deg);
-    transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
+
   
 
 /*  */
@@ -149,6 +95,62 @@ header strong {
     }
     .logos-clientes {
         padding: 20px !important;
+      }
+
+      .menu-wrapper {
+        position: absolute;
+        top: 0;
+        right: -40px;
+        bottom: 0;
+        margin: auto;
+        width: 100px;
+        height: 60px;
+        cursor: pointer;
+      }
+      
+      .hamburger-menu, .hamburger-menu::after, .hamburger-menu::before {
+        width: 40px;
+        height: 5px;
+    }
+      
+      .hamburger-menu {
+        position: relative;
+        transform: translateY(25px);
+        background: rgb(255, 196, 0);
+        transition: all 0ms 300ms;
+      }
+      .hamburger-menu.animate {
+        background: rgba(255, 255, 255, 0);
+      }
+      
+      .hamburger-menu:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+        background:rgb(255, 196, 0);
+        transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+      
+      .hamburger-menu:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 10px;
+        background: rgb(255, 196, 0);
+        transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+      
+      .hamburger-menu.animate:after {
+        top: -80px;
+        transform: rotate(45deg);
+        transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      
+      .hamburger-menu.animate:before {
+        bottom: 80px;
+        transform: rotate(-45deg);
+        transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
       }
 
 
