@@ -65,13 +65,13 @@ section {
 
 ::-moz-selection {
   color: #fff;
-  background: #212529;
+  background: #ff7000;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #212529;
+  background: #ff7000;
   text-shadow: none;
 }
 
